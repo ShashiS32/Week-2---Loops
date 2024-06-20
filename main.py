@@ -1,4 +1,4 @@
 students = ["Hermmione" , "Harry", "Ron"]
 
-for kid in students:
-    print (kid)
+for kids in range(len(students)):
+    print(int(kids  + 1) , students[kids])
