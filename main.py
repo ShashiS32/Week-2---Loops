@@ -1,4 +1,9 @@
-students = ["Hermmione" , "Harry", "Ron"]
+students = {
+    "Herminoe": "Griffindor", 
+    "Harry": "Griffindor",
+    "Draco": "Slytherin"
+    }
 
-for kids in range(len(students)):
-    print(int(kids  + 1) , students[kids])
+
+for student in students:
+    print(student, students[student])
