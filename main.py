@@ -1,2 +1,1 @@
-for i in range(3):
-    print("Meow")
+print("Meow\n" * 3, end="")
