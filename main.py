@@ -1,10 +1,8 @@
-students = [
-    {"name" : "Hermione" , "house": "gryffindor", "patronus": "Otter"},
-    {"name" : "Harry" , "house": "gryffindor", "patronus": "Stag"},
-    {"name" : "Ron" , "house": "gryffindor", "patronus": "Jack Russell Terrier"},
-    {"name" : "Draco" , "house": "slytherin", "patronus": None}
+def main():
+    print_column(3)
 
-]
+def print_column(height):
+    for _ in range (height):
+        print("#")
 
-for student in students:
-    print(student["name"] , "," , student["house"] , "," ,  student["patronus"])
+main()
